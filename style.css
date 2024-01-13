@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=IM+Fell+Double+Pica+SC&family=Libre+Baskerville&family=Martel+Sans&family=Montserrat&family=PT+Sans+Narrow&family=Poppins&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-image: url("assets/images/IN-en-20231225-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+    height: 95vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+}
+
+.eng {
+    background-color: transparent;
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 0 2rem 0 2rem;
+    font-size: 1rem;
+    align-self: center;
+    margin-top: 4vh;
+    margin-right: 19px;
+}
+
+.sign {
+    background-color: rgb(223, 11, 11);
+    border: none;
+    padding: 5px 19px;
+    border-radius: 5px;
+    margin-top: 4vh;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+.default-ltr-cache-iyxs8w {
+    position: absolute;
+    pointer-events: none;
+    width: 1rem;
+    height: 1rem;
+    top: 13%;
+    left: 0.75rem;
+    right: auto;
+}
+
+.main .box {
+    height: 95vh;
+    width: 100%;
+    filter: opacity(0.69);
+    background-color: black;
+    position: absolute;
+    top: 0;
+
+}
+body{
+    background-color: black;
+}
+nav {
+    max-width: 75vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 52px;
+}
+
+nav img {
+    height: 118px;
+    width: 166px;
+    position: relative;
+    z-index: 1;
+    margin-top: 5vh;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+    ;
+}
+
+.main .hero {
+    position: relative;
+    z-index: 10;
+    height: 91.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero {
+    padding: 0 30px;
+    gap: 22px;
+}
+
+.main .hero span {
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+.hero :first-child {
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+}
+
+.hero :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+}
+
+.hero :nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+}
+
+.email #Login {
+    border: 1px solid white;
+    border-radius: 5px;
+    background: rgba(22, 22, 22, 0.7);
+    border-color: rgba(128, 128, 128, 0.7);
+    font-size: 16px;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 600;
+    padding: 0.8em 9em 0.6em 0.7rem;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+}
+
+.email .button {
+    height: 10vh;
+}
+
+.email .button button {
+    background-color: rgb(214, 15, 15);
+    border: none;
+    border-radius: 5px;
+    margin-left: 0.5rem;
+    height: 10vh;
+    width: 18vw;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.button :hover {
+    cursor: pointer;
+}
+
+.button button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button div {
+    padding-left: 5px;
+    position: relative;
+    bottom: 13%;
+    /* height: 3px; */
+}
+.line{
+    height: 7px;
+    background-color: rgb(69, 65, 65);
+}
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+}
+.first img{
+    width: 30vw;
+    position: relative;
+    z-index: 1;
+}
+.img{
+    position: relative;
+}
+.img video{
+    position: absolute ;
+    top: 51px;
+    right: 0;
+    width: 29vw;
+    height: 28vh;
+    /* z-index: 0; */
+}
+.first{
+    padding:  auto;
+    margin-top: 4vh;
+}
+.first div{
+    display: flex;
+    flex-direction: column;
+}
+.first div :first-child{
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+}
+.first div :nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+.faq-box{
+    display: flex;
+    background-color: rgb(42, 42, 42);
+    padding: 24px;
+    margin: 20px auto;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 70vw ;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
+.FAQ{
+    background-color: black;
+    padding: 34px;
+    /* transition: all 1s ease; */
+    
+}
+.FAQ :hover{
+    background-color:  rgb(79, 77, 77);
+}
+.FAQ h2{
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'Poppins',sans-serif;
+}
+footer{
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    
+}
+footer span{
+  
+    margin: auto;
+    opacity: 0.56;
+    font-family: 'Poppins',sans-serif;
+}
+footer a{
+    color: white;
+    font-family: 'Poppins',sans-serif;
+}
+.linel{
+    margin: 8vh auto 4vh auto;
+}
+.hero2 span{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+    margin-bottom: 3vh;
+    
+}
+.hero2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.third img{
+    right: 1vw;
+    width: 37vw;
+    left: 3.7vw;
+}
+footer .footer{
+    opacity:0.58;
+}
+footer button{
+    position: relative;
+    z-index: 10;
+    font-family: 'Poppins',sans-serif;
+}
+ul{
+    list-style: none;
+}
+.footer{
+
+    display: flex;
+    gap: 29px;
+    justify-content: center;
+    align-items: center;
+}
+.footer-items{
+    padding: 1rem 4rem 2rem;
+    font-size: 14px;
+
+}
+.footer-items {
+    position: inherit;
+    /* width: 15vw; */
+
+}
+li{
+    padding: 0.2rem;
+    display: flex;
+    align-items: center;
+}
+.NetflixIndia{
+    margin-top: 9px;
+}
+footer>div{
+    margin: auto 16vw 3px;
+    font-size: 16px;
+}
+ul a:active{
+    opacity: 1;
+    color: red;
+}
+
